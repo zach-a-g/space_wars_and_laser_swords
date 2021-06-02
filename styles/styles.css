@@ -1,0 +1,74 @@
+html {
+    /* background-color: darkslategray; */
+    font-family: 'Odibee Sans', cursive;
+    background-image: url(/images/space.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    background-size: cover;
+    margin: auto;
+}
+
+h1 {
+    color: white;
+    font-size: 80px;
+    color: #fff;
+    text-align: center;
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+    -moz-animation: glow 1s ease-in-out infinite alternate;
+    animation: glow 1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #36e600, 0 0 40px #2ee600, 0 0 50px #2ee600, 0 0 60px #41e600, 0 0 70px #08e600;
+  }
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #4dff6b, 0 0 40px #62ff4d, 0 0 50px #6bff4d, 0 0 60px #77ff4d, 0 0 70px #6bff4d, 0 0 80px #77ff4d;
+  }
+}
+
+h2 {
+    color: white;
+}
+label {
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+button {
+    background-color: green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+div#root {
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* margin: 10%; */
+    width: 200px;
+}
+
+div#film {
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 10%;
+}
+
+#searchResults {
+    /* margin: auto; */
+    align-content: center;
+    justify-content: center;
+}

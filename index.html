@@ -1,13 +1,43 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Star Wars and Laser Swords</title>
+    <title>Interactive Star Wars Database</title>
+    <link rel='stylesheet' href='styles/styles.css'>
+    <link rel="preconnect" href="https://fonts.gstatic.com"> 
+<link href="https://fonts.googleapis.com/css2?family=Odibee+Sans&display=swap" rel="stylesheet">
 </head>
 <body>
-    
-    <script src="js/scripts.js"></script>
+
+    <h1><center>SPACE WARS AND LASER SWORDS</center></h1>
+    <h2><center>Star Wars Information Database</center></h2>
+    <div id='root'>
+        <form id='searchForm'>
+            <!-- <label>
+                Search for a Character by Name:
+                <input type='text' placeholder="Enter a Character's Name"/>
+            </label> -->
+            <select id='selectCharacter'>Select Character
+            </select>
+            <button type='submit'>Search SWAPI</button>
+        </form>
+        <div id='searchResults'></div>
+    </div>
+    <div id='film'>
+        <form id='filmForm'>
+            <!-- <label>
+                Search for a Character by Name:
+                <input type='text' placeholder="Enter a Character's Name"/>
+            </label> -->
+            <select id='selectFilm'>Select Film
+            </select>
+            <button id="filmButton" type="submit">Search SWAPI</button>
+        </form>
+        <div id='searchFilmResults'></div>
+    </div>
+    <script src='js/scripts.js'></script>
 </body>
 </html>
